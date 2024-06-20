@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Background Generator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="text-white" id="main-page">
+      <section class="h-fit">
+        <iframe src="./pages/nav.html" frameborder="0" width="100%"></iframe>
+      </section>
+      <section class="flex justify-center align-center">
+        <iframe
+          src="./pages/simple.html"
+          frameborder="0"
+          scrolling="no"
+          height="500"
+          width="500"
+          name="child-frame"
+        ></iframe>
+      </section>
+    </main>
+    <script>
+      window.addEventListener("message", function (event) {
+        if (
+          event.data.action === "changeColor" ||
+          event.data.action === "changeToDefault"
+        ) {
+          document.body.style.backgroundColor = event.data.color;
+        }
+      });
+    </script>
+  </body>
+</html>

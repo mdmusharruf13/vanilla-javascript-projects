@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body class="text-white">
+    <nav class="flex space-between align-center bg-grey">
+      <ul class="nav-list">
+        <li>
+          <h2>Random Background Generator</h2>
+        </li>
+      </ul>
+      <ul class="nav-list flex space-around w-30">
+        <li>
+          <a
+            href="./simple.html"
+            onclick="bgChange(this)"
+            target="child-frame"
+            class="link"
+            id="name"
+            >Name</a
+          >
+        </li>
+        <li>
+          <a
+            href="./hex.html"
+            onclick="bgChange(this)"
+            target="child-frame"
+            class="link"
+            id="hex"
+            >Hex code</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://github.com/mdmusharruf13/vanilla-javascript-projects"
+            target="_black"
+            class="text-white decoration-none"
+            >Source Code</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <script>
+      function bgChange(element) {
+        parent.postMessage({ action: "changeToDefault", color: "white" });
+
+        document.querySelectorAll(".link").forEach((link) => {
+          link.classList.remove("active");
+        });
+
+        element.classList.add("active");
+      }
+    </script>
+  </body>
+</html>
