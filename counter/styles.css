@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* height & width */
+.h-50px {
+  height: 50px;
+}
+.w-full {
+  width: 100%;
+}
+.container-50 {
+  height: 50vh;
+  width: 50vw;
+}
+
+/* margin & padding */
+.m-5 {
+  margin: 5px;
+}
+.p-5 {
+  padding: 5px;
+}
+.mx-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+.mt-20p {
+  margin-top: 20%;
+}
+
+/* flex */
+.flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-items {
+  align-items: center;
+}
+.space-between {
+  justify-content: space-between;
+}
+.space-evenly {
+  justify-content: space-evenly;
+}
+.direction-col {
+  flex-direction: column;
+}
+
+/* text & font */
+.heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.sub-heading {
+  font-size: 1.25rem;
+  font-weight: bold;
+  line-height: 50px;
+}
+.text-center {
+  text-align: center;
+}
+
+/* background-color */
+.bg-black {
+  background-color: black;
+  color: whitesmoke;
+}
+.green {
+  color: green;
+}
+.red {
+  color: red;
+}
+.black {
+  color: black;
+}
+
+/* others */
+.list-style-none {
+  list-style-type: none;
+}
+.border-2 {
+  border: 2px solid grey;
+}
+.button {
+  margin: 3px;
+  padding: 5px;
+  border: 0.1px solid black;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+.button:hover {
+  background-color: whitesmoke;
+}
+.icon {
+  height: 30px;
+  border: 0px;
+  border-radius: 5px;
+}

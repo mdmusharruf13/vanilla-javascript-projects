@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter Project</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="h-50px border-2 bg-black">
+        <nav>
+          <ul class="list-style-none flex space-between align-center m-5 p-5">
+            <li class="heading">Counter</li>
+            <li>
+              <a
+                href="https://github.com/mdmusharruf13/vanilla-javascript-projects"
+                target="_blank"
+              >
+                <img
+                  src="./images/github-logo.png"
+                  alt="github-icon"
+                  class="icon"
+                />
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <section
+        class="flex direction-col justify-center align-center border-2 mx-auto container-50 direction-col line-height-2 mt-20p"
+      >
+        <p class="text-center sub-heading">
+          Count: <span class="counter">0</span>
+        </p>
+        <ul class="list-style-none flex space-evenly align-center">
+          <li>
+            <button class="button decrement">decrement</button>
+          </li>
+          <li>
+            <button class="button increment">increment</button>
+          </li>
+          <li>
+            <button class="button reset">reset</button>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
