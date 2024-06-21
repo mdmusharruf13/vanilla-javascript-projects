@@ -69,6 +69,12 @@
   background-color: black;
   color: whitesmoke;
 }
+.bg-violet {
+  background-color: rgb(254, 193, 254);
+}
+.bg-skyblue {
+  background-color: rgb(173, 228, 250);
+}
 .green {
   color: green;
 }
@@ -85,6 +91,9 @@
 }
 .border-2 {
   border: 2px solid grey;
+}
+.border-radius-x {
+  border-radius: 5px;
 }
 .button {
   margin: 3px;
