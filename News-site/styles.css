@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* maring & padding */
+.mx-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+.m-5 {
+  margin: 5px;
+}
+.m-10 {
+  margin: 10px;
+}
+.mt-5p {
+  margin-top: 5vh;
+}
+.p-5 {
+  padding: 5px;
+}
+.p-10 {
+  padding: 10px;
+}
+
+/* height & width */
+.h-200 {
+  height: 200px;
+}
+.h-450 {
+  height: 450px;
+}
+.w-500 {
+  width: 400px;
+}
+.h-full {
+  height: 100vh;
+}
+
+/* flex */
+.flex {
+  display: flex;
+}
+.direction-col {
+  flex-direction: column;
+}
+.justify-center {
+  justify-content: center;
+}
+.space-between {
+  justify-content: space-between;
+}
+.space-around {
+  justify-content: space-around;
+}
+.space-evenly {
+  justify-content: space-evenly;
+}
+.align-center {
+  align-items: center;
+}
+
+/* font & text */
+.text-center {
+  text-align: center;
+}
+.bold {
+  font-weight: bold;
+}
+.title {
+  font-size: 1.2rem;
+}
+.italic {
+  font-style: italic;
+}
+.line-height-x {
+  line-height: 1.75rem;
+}
+.line-height-sm {
+  line-height: 1rem;
+}
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* others */
+.border-2 {
+  border: 2px solid black;
+}
+
+.border {
+  border-width: 1px;
+}
+.border-radius-x {
+  border-radius: 5px;
+}
+.border-radius-xl {
+  border-radius: 10px;
+}
+.bg-whitesomke {
+  background-color: whitesmoke;
+}
+.bg-white {
+  background-color: white;
+}
+.shadow {
+  box-shadow: 5px 5px 3px lightslategrey;
+}
+.button {
+  padding: 7px;
+  margin: 5px;
+  border: 0;
+  border-radius: 5px;
+  background-color: lightslategrey;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 30px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: rgb(141, 159, 177);
+}
