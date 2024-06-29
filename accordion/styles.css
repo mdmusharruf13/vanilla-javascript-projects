@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(230, 232, 234);
+}
+
+/* colors */
+.bg-orange {
+  background-color: orange;
+}
+.bg-red {
+  background-color: red;
+}
+.bg-grey {
+  background-color: grey;
+}
+.bg-white {
+  background-color: #fff;
+}
+
+/* height & width */
+.line-height-x {
+  line-height: 2rem;
+}
+.h-full {
+  height: 100vh;
+}
+.w-half {
+  width: 700px;
+}
+.w-10px {
+  width: 40px;
+}
+.w-600px {
+  width: 600px;
+}
+.h-80 {
+  height: 80%;
+}
+.h-20 {
+  height: 20%;
+}
+
+/* margin & padding */
+.m-5 {
+  margin: 5px;
+}
+.m-10 {
+  margin: 10px;
+}
+.p-5 {
+  padding: 5px;
+}
+.p-10 {
+  padding: 10px;
+}
+
+/* font & text */
+.bold {
+  font-weight: bold;
+}
+.heading {
+  font-size: 2.5rem;
+}
+
+/* flex */
+.flex {
+  display: flex;
+}
+.direction-col {
+  flex-direction: column;
+}
+.justify-center {
+  justify-content: center;
+}
+.space-evenly {
+  justify-content: space-evenly;
+}
+.space-between {
+  justify-content: space-between;
+}
+.space-around {
+  justify-content: space-around;
+}
+.align-center {
+  align-items: center;
+}
+
+/* display */
+.visible {
+  visibility: visible;
+}
+.hidden {
+  visibility: hidden;
+}
+.display-none {
+  display: none;
+}
+.display-block {
+  display: block;
+}
+
+/* others */
+.btn {
+  padding: 7px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background-color: transparent;
+  transition: transform 0.3s ease;
+}
+.border {
+  border: 2px;
+}
+.radius-5 {
+  border-radius: 5px;
+}
+
+.btn-rotate {
+  transform: rotate(180deg);
+}

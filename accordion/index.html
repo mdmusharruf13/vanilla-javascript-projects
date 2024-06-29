@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>General Question</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="h-full flex direction-col align-center line-height-x">
+      <section class="h-20 flex justify-center align-center">
+        <h1 class="heading">JavaScript Questions</h1>
+      </section>
+      <section class="h-80">
+        <article class="question w-600px bg-white p-10 m-10 border radius-5">
+          <div>
+            <p class="flex space-between">
+              <span class="bold"> Explain the Event Loop in JavaScript.</span>
+              <button class="btn w-10px border radius-5">&darr;</button>
+            </p>
+
+            <p class="answer display-none">
+              The event loop is a mechanism in JavaScript that handles
+              asynchronous operations. It continuously checks the call stack and
+              the task queue. When the call stack is empty, it picks the first
+              callback from the queue and pushes it onto the call stack, which
+              effectively runs the callback. This process continues as long as
+              there are callbacks in the queue.
+            </p>
+          </div>
+        </article>
+        <article class="question w-600px bg-white p-10 m-10 border radius-5">
+          <div>
+            <p class="flex space-between">
+              <span class="bold">What are Promises in JavaScript?</span>
+              <button class="btn w-10px border radius-5">&darr;</button>
+            </p>
+
+            <p class="answer display-none">
+              Promises are objects in JavaScript that represent the eventual
+              completion (or failure) of an asynchronous operation and its
+              resulting value. They provide a cleaner alternative to callbacks
+              for handling asynchronous operations. A promise can be in one of
+              three states: pending (initial state), fulfilled (operation
+              completed successfully), or rejected (operation failed).
+            </p>
+          </div>
+        </article>
+        <article class="question w-600px bg-white p-10 m-10 border radius-5">
+          <div>
+            <p class="flex space-between">
+              <span class="bold"
+                >Explain the concept of Prototypal Inheritance in
+                JavaScript.</span
+              >
+              <button class="btn w-10px border radius-5">&darr;</button>
+            </p>
+
+            <p class="answer display-none">
+              Prototypal inheritance is a way of implementing inheritance in
+              JavaScript. Every JavaScript object has a prototype property,
+              which makes inheritance possible in JavaScript. When a property is
+              accessed on an object and if the property is not found, JavaScript
+              will look at the object's prototype, and then the prototype's
+              prototype, until it finds the property or reaches the end of the
+              prototype chain (null).
+            </p>
+          </div>
+        </article>
+        <article class="question w-600px bg-white p-10 m-10 border radius-5">
+          <div>
+            <p class="flex space-between">
+              <span class="bold"
+                >What is the difference between undefined and null in
+                JavaScript?</span
+              >
+              <button class="btn w-10px border radius-5">&darr;</button>
+            </p>
+
+            <p class="answer display-none">
+              undefined is a primitive value that is automatically assigned to
+              variables that have been declared but have not been assigned a
+              value. It also represents the return value of functions that do
+              not explicitly return anything. null is a primitive value that
+              represents the intentional absence of any object value. It is
+              often used to represent that a variable has been explicitly set to
+              no value or that a function intentionally returns no valid object.
+            </p>
+          </div>
+        </article>
+      </section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
